@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            <label for = "Father">Select Father Blood type:</label>
+            <select name = "Father" id="Father">
+                <option value="A">A</option>
+                <option value="AB">AB</option>
+                <option value="B">B</option>
+                <option value="O">O</option>
+                
+            </select>
+            <label for="Group1">Select Group:</label>
+            <select name="Group1" id="Group1">
+                <option value="Rh+">Rh+</option>
+                <option value="Rh-">Rh-</option>
+            </select>
+            <br><br>
+            <label for = "Mother">Select Mother Blood type:</label>
+            <select name = "Mother" id="Mother">
+                <option value="A">A</option>
+                <option value="AB">AB</option>
+                <option value="B">B</option>
+                <option value="O">O</option>
+                
+            </select>
+            <label for="Group2">Select Group:</label>
+            <select name="Group2" id="Group2">
+                <option value="Rh+">Rh+</option>
+                <option value="Rh-">Rh-</option>
+            </select>
+            <br><br>
+            <input type="button" name="submit" value="Submit" onclick="Sub()"/>
+        </form>
+        <p id="Result"></p>
+        
+        <p id="Result2"></p>
+
+    </body>
+    
+    <script src="Blood.js"></script>
+</html>

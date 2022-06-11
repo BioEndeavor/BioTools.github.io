@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="home.css">
+        
+    <title>
+      DNA to Protein
+  </title>
+  
+  <link rel = "icon" type = "image/png" href = "pngegg.png">
+    </head>
+  
+    <body>
+      <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+      </div>
+      <br>
+    <div id = "content">
+      <h2 style="color: white;">Dna Sequence: <br><button type = "reset"onclick="Reset()" id ="bt">Clear</button></h2>
+    <textarea id="Nucleotide" style="opacity: 0.6;"></textarea><br><br>
+    <table>
+    <td style="width: 350px;"><button onclick="Con()" id ="bt">Transcription</button></td>
+   <td> <button onclick="RevD()" id ="bt">Reverse Transcription</button></td><br><br></table>
+    
+    <h2 style="color: white;">Rna Sequence:<br><button type = "reset"onclick="Reset1()" id ="bt">Clear</button></h2>
+    <textarea id="Rna" style="opacity: 0.6;"></textarea><br><br>
+    <button onclick="R()" id="bt">Translate</button><br><br>
+    <h2 style="color: white;">Protein Sequence: <br><button type = "reset"onclick="Reset2()" id ="bt">Clear</button></h2>
+    <textarea disabled id="trna"></textarea>
+    
+  </div>
+    </body>
+    <script src="home.js"></script>
+</html>

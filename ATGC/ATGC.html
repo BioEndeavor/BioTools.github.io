@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="ATGC.css">
+        
+    <title>
+        DNA to Protein
+    </title>
+    
+  	<link rel = "icon" type = "image/png" href = "pngegg.png">
+    </head>
+    <body onload="load()">
+        <div id="loading"></div>
+        
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+
+          </div>  
+          <br><br>
+      <div id="content">
+            <table id ="NC" style="border-spacing: 15px;">
+                <tr id = "dna">
+                    <td style="width:80%"><h2>Enter DNA Sequence:</h2>
+                    <textarea  cols = "40" rows="10" id="Nucleotide"></textarea>
+                    </td>
+                    <td><br><button onclick="C()">Submit</button></td>
+                </tr>
+                <tr>
+                    <td id="R">Total Count:</td>
+                    <td id="Tot"></td>
+                </tr>
+                <tr>
+                    <td id="R">A:</td>
+                    <td id="AA"></td>
+                </tr>
+                <tr>
+                    <td id="R">T:</td>
+                    <td id="TT"></td>
+                </tr>
+                <tr>
+                    <td id="R">G:</td>
+                    <td id="GG"></td>
+                </tr>
+                <tr>
+                    <td id="R">C:</td>
+                    <td id="CC"></td>
+                </tr>
+                <tr>
+                    <td id="R">% GC Content:</td>
+                    <td id="GC"></td>
+                </tr>
+            </table>
+          </div>
+     <script src="ATGC.js"></script>
+    </body>
+</html>

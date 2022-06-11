@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Random.css">
+        
+    <title>
+        DNA to Protein
+    </title>
+    
+  	<link rel = "icon" type = "image/png" href = "pngegg.png">
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+          </div>
+          <br><br>
+        <div id = "content">
+        <p> Size of DNA sequence
+        <input size = "10" id = "Number" value="1000">
+    </p>
+        <p>
+           % GC content(1 to 100):
+           <input type = "number" value = "50" min="1" max = "100" id = "GC" size = "3" maxlength="3"> 
+        </p>
+        <p>Select Type:
+        <input type="radio" id="DNA" name = "Seq" value="DNA" checked>
+        <label for="DNA">DNA</label>
+        <input type="radio" id="RNA" name = "Seq" value="RNA">
+        <label for="RNA">RNA</label>
+    </p><br><br>
+        <button class = "button" onclick="D()">Generate</button><br><br><br>
+        <textarea disabled rows = "15" cols = "90" id = "Rand">
+
+        </textarea>
+    </div>
+    </body>
+    <script src="Random.js"></script>
+</html>

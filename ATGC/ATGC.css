@@ -1,0 +1,130 @@
+#Nucleotide {  
+    border: 3px solid rgb(37, 28, 28);
+    padding: 10px;
+    width: fit-content;
+    font-size: 20px;
+    height: 100px;
+    margin-top: 20px;  
+}
+.box {
+    width: 500px;
+    height: 200px;
+    overflow:auto;
+  }
+.dna{
+    border: 3px;
+}
+      
+/*body{
+    background-image: url("Dna.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+button{
+    height: 50px;
+    width: 100px;
+}
+
+#NC{
+    background-color: #ddd;
+    opacity: .8;
+}
+
+#NC td{
+    padding: 8px;
+    
+  }
+#R{
+
+    font-size: 20px;
+    
+}
+
+#Tot{
+    border: 3px solid rgb(37, 28, 28);
+    height: 30px;
+    width: 75px;
+    font-size: 20px;
+}
+#TT{
+    border: 3px solid rgb(37, 28, 28);
+    height: 30px;
+    width: 75px;
+    font-size: 20px;
+}
+#AA{
+    border: 3px solid rgb(37, 28, 28);
+    height: 30px;
+    width: 75px;
+    font-size: 20px;
+}
+#CC{
+    border: 3px solid rgb(37, 28, 28);
+    height: 30px;
+    width: 75px;
+    font-size: 20px;
+}
+#GG{
+    border: 3px solid rgb(37, 28, 28);
+    height: 30px;
+    width: 75px;
+    font-size: 20px;
+    
+}
+#GC{
+    border: 3px solid rgb(37, 28, 28);
+    height: 30px;
+    width: 75px;
+    font-size: 20px;
+    
+}
+
+#content {
+    max-width: 1000px;
+    margin: auto;
+    left: 10%;
+    right: 1%;
+    position: relative;
+
+}
+
+#Out{
+    border: 3px solid ;
+    padding-left: 10%;
+    width: 500px;
+}
+body{
+    background-image: url("d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#loading{
+    width: 100%;
+    background-color: #fff;
+    
+}
